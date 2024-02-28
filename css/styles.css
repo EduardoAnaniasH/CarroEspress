@@ -1,0 +1,67 @@
+/* Estilos para o cabeçalho */
+body {
+    font-family: 'Roboto', sans-serif;
+    /* Aplica a fonte Roboto ao corpo do documento */
+}
+
+header {
+    padding: 20px 0;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+/* Estilos para a seção de carros mais buscados */
+.top-cars {
+    padding: 50px 0;
+    background-color: #343a40;
+    /* azul escuro */
+}
+
+.carousel-image {
+    height: 400px;
+    /* Ajuste a altura conforme necessário */
+}
+
+
+.carousel-item img {
+    border-radius: 10px;
+    height: 400px;
+}
+
+.carousel-caption h2 {
+    color: #343a40 !important;
+    /* Cor do texto desejada */
+}
+
+/* Estilos para a seção de carros mais vendidos */
+.top-cars.py-5.bg-light {
+    background-color: #f8f9fa;
+    /* cinza claro */
+}
+
+.top-cars h2 {
+    color: #f8f9fa;
+    /* azul escuro */
+}
+
+.card {
+    margin-bottom: 30px;
+    border: 1px solid #dee2e6;
+    /* cinza claro */
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.card-text {
+    color: #6c757d;
+    /* cinza escuro */
+}

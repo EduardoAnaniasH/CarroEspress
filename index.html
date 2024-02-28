@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>CarroExpress</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">CarroExpress</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav m-auto my-2 my-lg-2">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Carros à Venda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Sobre Nós</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2 rounded-pill border-0" type="search" placeholder="Pesquisar"
+                            aria-label="Pesquisar">
+                        <button class="btn btn-primary rounded-pill px-4" type="submit">Pesquisar</button>
+                    </form>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="carouselSection">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <!-- Adicione mais botões conforme necessário para mais slides -->
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/slides/compre.jpg" class="d-block w-100" alt="Venha adquirir nossos veículos">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 style="background-color: rgba(0, 0, 0, 0.5); padding: 10px;">Venha adquirir nossos veículos
+                        </h2>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/slides/onix-2019.jpg" class="d-block w-100" alt="Onix">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 style="background-color: rgba(0, 0, 0, 0.5); padding: 10px;">Descubra o Onix 2019:
+                            confiável, eficiente e cheio de estilo. Seu próximo carro está aqui</h2>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/slides/strada.jpg" class="d-block w-100"
+                        alt="Conheça a Fiat Strada. Versatilidade e eficiência em um veículo compacto e confiável">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 style="background-color: rgba(0, 0, 0, 0.5); padding: 10px;">Conheça a Fiat Strada.
+                            Versatilidade e eficiência em um veículo compacto e confiável</h2>
+                    </div>
+                </div>
+                <!-- Adicione mais divs conforme necessário para mais slides -->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+        </div>
+        <div class="container">
+            <h2 class="text-center m-5">Principais Marcas</h2>
+            <div class="row justify-content-center text-center">
+                <div class="col-md-2">
+                    <img src="img/icons8-toyota-100.png" alt="Toyota">
+                </div>
+                <div class="col-md-2">
+                    <img src="img/icons8-honda-100.png" alt="Honda">
+                </div>
+                <div class="col-md-2">
+                    <img src="img/icons8-ford-100.png" alt="Ford">
+                </div>
+                <div class="col-md-2">
+                    <img src="img/icons8-chevrolet-100.png" alt="Chevrolet">
+                </div>
+                <div class="col-md-2">
+                    <img src="img/icons8-fiat-100.png" alt="Fiat">
+                </div>
+                <!-- Adicione mais marcas conforme necessário -->
+            </div>
+        </div>
+        
+        
+
+    </section>
+
+    <section class="top-cars py-5 m-3 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Carros Mais Vendidos</h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card h-100">
+                        <img src="img/carros/Renault.jpg" class="card-img-top" alt="Renault Kwid 1.0 Zen 2021">
+                        <div class="card-body">
+                            <h5 class="card-title">Renault Kwid 1.0 Zen 2021</h5>
+                            <p class="card-text">R$46,718</p>
+                            <a href="#" class="btn btn-primary">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card h-100">
+                        <img src="img/carros/argo1-0.png" class="card-img-top" alt="Fiat Argo 1.0 2022/23">
+                        <div class="card-body">
+                            <h5 class="card-title">Fiat Argo 1.0 2022/23</h5>
+                            <p class="card-text">R$60,000</p>
+                            <a href="#" class="btn btn-primary">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card h-100">
+                        <img src="img/carros/onix2019.jpg" class="card-img-top" alt="Chevrolet Onix LT 1.0">
+                        <div class="card-body">
+                            <h5 class="card-title">Chevrolet Onix LT 1.0 2022</h5>
+                            <p class="card-text">R$64,520</p>
+                            <a href="#" class="btn btn-primary">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card h-100">
+                        <img src="img/carros/Hyundai.jpg" class="card-img-top" alt="Hyundai HB20 1.0 Sense 2022">
+                        <div class="card-body">
+                            <h5 class="card-title">Hyundai HB20 1.0 Sense 2022</h5>
+                            <p class="card-text">R$62,634</p>
+                            <a href="#" class="btn btn-primary">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Adicione mais colunas conforme necessário para mais carros -->
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h2>Destaques</h2>
+                    <p>Novos lançamentos em 2024!</p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="img/carros/Dolphin Mini.jpg" class="card-img-top" alt="Dolphin Mini">
+                        <div class="card-body">
+                            <h5 class="card-title">Dolphin Min</h5>
+                            <p class="card-text">O elétrico mais barato do Brasil</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="img/carros/Fiat Titano.jpg" class="card-img-top" alt="Fiat Titano">
+                        <div class="card-body">
+                            <h5 class="card-title">Fiat Titano</h5>
+                            <p class="card-text">A Titano será a primeira picape média da Fiat</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="img/carros/Citroën C3 Aircross.jpg" class="card-img-top" alt="Citroën C3 Aircross">
+                        <div class="card-body">
+                            <h5 class="card-title">Citroën C3 Aircross</h5>
+                            <p class="card-text">O C3 Aircross de sete assentos</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Adicione mais colunas conforme necessário -->
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <a href="#" class="btn btn-primary">Ver Mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h1 class="mt-5 text-center">Entre em Contato</h1>
+            <p class="text-center">Tem alguma pergunta ou gostaria de mais informações?</p>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensagem:</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h1 class="mt-5 text-center">Sobre Nós</h1>
+            <p>Seja bem-vindo à CarroExpress, o seu destino confiável para adquirir carros novos e usados de alta qualidade. Nosso compromisso é proporcionar aos nossos clientes uma experiência excepcional de compra de automóveis.</p>
+            <p>Convidamos você a nos fazer uma visita hoje mesmo e descobrir por que somos a preferência dos compradores de carros em nossa região. Estamos prontos para auxiliá-lo a encontrar o carro perfeito que atenda às suas necessidades e ao seu estilo de vida. Esperamos recebê-lo em breve!</p>
+        </div>
+    </section>
+
+    <section class="contact-info py-5 m-2 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Localização</h3>
+                    <p>123 Rua Principal</p>
+                    <p>Cidade, Estado, CEP</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Email</h3>
+                    <p>info@CarroExpress.com</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Telefone</h3>
+                    <p>(123) 456-7890</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer bg-dark text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 m-auto text-center">
+                    <h2>Inscreva-se para receber nossas novidades</h2>
+                    <form action="#" method="POST">
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Seu melhor e-mail" aria-label="Seu melhor e-mail" aria-describedby="button-addon2">
+                            <button class="btn btn-primary" type="button" id="button-addon2">Inscrever-se</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row pt-5 text-center">
+                <div class="col-lg-4 py-3">
+                    <h5 class="pb-3">Atendimento ao Cliente</h5>
+                    <p>Dúvidas</p>
+                    <p>Orientações</p>
+                    <p>Contrato</p>
+                </div>
+                <div class="col-lg-4 py-3">
+                    <h5 class="pb-3">Consultas</h5>
+                    <p>Planos</p>
+                    <p>Compras</p>
+                    <p>Preços</p>
+                </div>
+                <div class="col-lg-4 py-3">
+                    <h5 class="pb-3">Redes Sociais</h5>
+                    <span><i class="fab fa-facebook"></i></span>
+                    <span><i class="fab fa-instagram"></i></span>
+                    <span><i class="fab fa-twitter"></i></span>
+                    <span><i class="fab fa-google-plus"></i></span>
+                </div>
+            </div>
+        </div>
+        <p class="text-center">Ícones por <a href="https://icons8.com" target="_blank">Icons8</a></p>
+        <hr>
+        <p class="text-center mb-0">Copyright &copy;2024 - Eduardo Ananias</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
